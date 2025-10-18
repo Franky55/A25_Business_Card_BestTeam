@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMA400")(type "Altium")(uri "${KIPRJMOD}/Components/BMA400/BMA400.IntLib")(options "")(descr ""))
+)
