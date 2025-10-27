@@ -6,4 +6,5 @@
   (lib (name "RC0603FR-07100KL")(type "KiCad")(uri "${KIPRJMOD}/Components/RC0603FR-07100KL/RC0603FR-07100KL.kicad_sym")(options "")(descr ""))
   (lib (name "DMG2305UX-7")(type "KiCad")(uri "${KIPRJMOD}/Components/DMG2305UX-7/DMG2305UX-7.kicad_sym")(options "")(descr ""))
   (lib (name "CL10B105KP8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Components/CL10B105KP8NNNC/CL10B105KP8NNNC.kicad_sym")(options "")(descr ""))
+  (lib (name "Header1x4")(type "KiCad")(uri "${KIPRJMOD}/Components/Header1x4/Header1x4.kicad_sym")(options "")(descr ""))
 )
