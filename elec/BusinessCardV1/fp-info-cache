@@ -1,4 +1,4 @@
-26717139309951645
+26725946254267657
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2817,6 +2817,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CL10B105KP8NNNC
+CAPC1608X90N
+
+
 0
 2
 2
@@ -59359,6 +59366,13 @@ ceramic
 0
 3
 3
+DMG2305UX-7
+SOT91P240X110-3N_DMG2305UX-7
+
+
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -93652,6 +93666,20 @@ diode handsolder
 0
 2
 2
+QBLP595
+QBLP595
+Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+RC0603FR-07100KL
+RESC1607X60N
+
+
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -97270,6 +97298,13 @@ Rotary encoder with switch and illuminated 4,6,8,13,18mm shaft, dual-led, https:
 rotary encoder illuminated switch vertical
 0
 9
+8
+SN74LVC2G74DCTR
+SOP65P400X130-8N
+
+
+0
+8
 8
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown

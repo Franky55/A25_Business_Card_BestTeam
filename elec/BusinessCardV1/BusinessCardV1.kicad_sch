@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 142.24 43.18)
-		(size 25.4 13.97)
+		(at 138.43 41.91)
+		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "66be7068-010f-4f97-a939-a3f63cf5b00a")
-		(property "Sheetname" "Logic"
-			(at 142.24 42.4684 0)
+		(uuid "3d5f4a94-d08e-45fb-bba7-29ec81636d6c")
+		(property "Sheetname" "RGB_LED_Circuit"
+			(at 138.43 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +30,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Logic.kicad_sch"
-			(at 142.24 57.7346 0)
+		(property "Sheetfile" "RGB_LED_circuit.kicad_sch"
+			(at 138.43 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,6 +85,48 @@
 			(project "BusinessCardV1"
 				(path "/28a1e4b0-497b-455a-8c80-759850e7b173"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 82.55)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb75b1ab-3247-4d76-a79d-e5920cedd94d")
+		(property "Sheetname" "Accelerometer_Circle_LED"
+			(at 46.99 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Accelerometer_Circle_LED.kicad_sch"
+			(at 46.99 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BusinessCardV1"
+				(path "/28a1e4b0-497b-455a-8c80-759850e7b173"
+					(page "4")
 				)
 			)
 		)

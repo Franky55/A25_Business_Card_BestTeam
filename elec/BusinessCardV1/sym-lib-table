@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "BMA400")(type "Altium")(uri "${KIPRJMOD}/Components/BMA400/BMA400.IntLib")(options "")(descr ""))
   (lib (name "QBLP595")(type "Altium")(uri "${KIPRJMOD}/Components/QBLP595/QBLP595.SchLib")(options "")(descr ""))
+  (lib (name "SN74LVC2G74DCTR")(type "KiCad")(uri "${KIPRJMOD}/Components/SN74LVC2G74DCTR/SN74LVC2G74DCTR.kicad_sym")(options "")(descr ""))
+  (lib (name "RC0603FR-07100KL")(type "KiCad")(uri "${KIPRJMOD}/Components/RC0603FR-07100KL/RC0603FR-07100KL.kicad_sym")(options "")(descr ""))
+  (lib (name "DMG2305UX-7")(type "KiCad")(uri "${KIPRJMOD}/Components/DMG2305UX-7/DMG2305UX-7.kicad_sym")(options "")(descr ""))
+  (lib (name "CL10B105KP8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Components/CL10B105KP8NNNC/CL10B105KP8NNNC.kicad_sym")(options "")(descr ""))
 )
