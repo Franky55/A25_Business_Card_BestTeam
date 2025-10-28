@@ -7,4 +7,7 @@
   (lib (name "DMG2305UX-7")(type "KiCad")(uri "${KIPRJMOD}/Components/DMG2305UX-7/DMG2305UX-7.kicad_sym")(options "")(descr ""))
   (lib (name "CL10B105KP8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Components/CL10B105KP8NNNC/CL10B105KP8NNNC.kicad_sym")(options "")(descr ""))
   (lib (name "Header1x4")(type "KiCad")(uri "${KIPRJMOD}/Components/Header1x4/Header1x4.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV8544DR")(type "KiCad")(uri "${KIPRJMOD}/Components/TLV8544DR/2025-10-27_23-58-52.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC08APWR")(type "KiCad")(uri "${KIPRJMOD}/Components/SN74LVC08APWR/SN74LVC08APWR.kicad_sym")(options "")(descr ""))
+  (lib (name "TC4069UBFTELN")(type "KiCad")(uri "${KIPRJMOD}/Components/TC4069UBFTELN/2025-10-28_00-06-56.kicad_sym")(options "")(descr ""))
 )

@@ -1312,12 +1312,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Connector Header Through Hole 4 position 0.100 (2.54mm)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1332,16 +1333,6 @@
 				)
 			)
 			(property "MF" "Wurth Electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Connector Header Through Hole 4 position 0.100 (2.54mm)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2602,6 +2593,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Ring Power\n\n"
+		(exclude_from_sim no)
+		(at 144.018 89.154 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1bd6020d-f8f6-484d-acf4-19a3e4613a3a")
+	)
 	(text "Control Power"
 		(exclude_from_sim no)
 		(at 248.92 24.384 0)
@@ -2616,7 +2619,7 @@
 	)
 	(text "Custom header \nto be added"
 		(exclude_from_sim no)
-		(at 223.52 106.68 0)
+		(at 248.412 106.172 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2664,7 +2667,7 @@
 	)
 	(text "Solar panel"
 		(exclude_from_sim no)
-		(at 223.266 87.63 0)
+		(at 248.158 87.122 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2693,6 +2696,12 @@
 		(uuid "3c44c25a-73c0-412f-a356-f93384e8a3dd")
 	)
 	(junction
+		(at 128.27 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5063fb7d-e746-49ba-8235-1afa49a102aa")
+	)
+	(junction
 		(at 25.4 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2717,6 +2726,12 @@
 		(uuid "c70af0de-71a3-4a14-9b80-6292d9ed726d")
 	)
 	(junction
+		(at 142.24 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5cde07f-0c29-4d4e-80a0-1638b0c365eb")
+	)
+	(junction
 		(at 59.69 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2725,6 +2740,16 @@
 	(no_connect
 		(at 83.82 52.07)
 		(uuid "bc2f411f-3178-47d8-9817-d4042e9012ca")
+	)
+	(polyline
+		(pts
+			(xy 113.03 132.08) (xy 113.03 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06acf6af-fba5-4c90-aafc-956342dfc7ba")
 	)
 	(wire
 		(pts
@@ -2735,6 +2760,16 @@
 			(type default)
 		)
 		(uuid "1c922f9e-f61a-42b1-94ba-78154b753166")
+	)
+	(polyline
+		(pts
+			(xy 113.03 78.74) (xy 113.03 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246732ea-8998-4dc8-a7d2-545a2b30d66b")
 	)
 	(wire
 		(pts
@@ -2748,6 +2783,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 99.06) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab3440c-c18c-402d-a6d5-4cd1cb630a39")
+	)
+	(wire
+		(pts
 			(xy 83.82 39.37) (xy 85.09 39.37)
 		)
 		(stroke
@@ -2755,6 +2800,16 @@
 			(type default)
 		)
 		(uuid "2c6e83de-5e00-44c5-af1a-bbb3ce126fc9")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf799dc-8850-4b8b-afb4-4a73fe2f8806")
 	)
 	(wire
 		(pts
@@ -2775,6 +2830,16 @@
 			(type default)
 		)
 		(uuid "2f5746a9-6940-4096-a509-98f16fdb7ccb")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd42c72-74eb-45f1-b634-108e4a45876a")
 	)
 	(polyline
 		(pts
@@ -2825,6 +2890,16 @@
 			(type default)
 		)
 		(uuid "4b984718-9ce2-4310-941a-100c6fa4ca65")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53efd892-9516-4145-9bb5-3563c38d8b7b")
 	)
 	(wire
 		(pts
@@ -2958,6 +3033,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 107.95) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801f9130-a97c-4ff0-b2ed-4060eaf50708")
+	)
+	(wire
+		(pts
 			(xy 59.69 105.41) (xy 59.69 106.68)
 		)
 		(stroke
@@ -2995,6 +3080,16 @@
 			(type default)
 		)
 		(uuid "89e5085b-a46c-4d5a-834c-efe4e4e2ee47")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a948584-0bf2-4dfc-acfe-fa57b9ce40fb")
 	)
 	(wire
 		(pts
@@ -3105,6 +3200,16 @@
 			(type default)
 		)
 		(uuid "dd9d6459-79e6-44ba-9d19-144954822381")
+	)
+	(wire
+		(pts
+			(xy 142.24 107.95) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0efd985-bc03-4971-8927-3141f9faeb30")
 	)
 	(wire
 		(pts
@@ -3236,6 +3341,16 @@
 		)
 		(uuid "4785d039-d220-41a1-923a-7ab1d61e09ac")
 	)
+	(label "RingBTN"
+		(at 142.24 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a1bafe6-c7c8-4709-ac0d-190ba9d9f661")
+	)
 	(label "V_Bat"
 		(at 20.32 105.41 0)
 		(effects
@@ -3287,6 +3402,16 @@
 			(justify left bottom)
 		)
 		(uuid "be8c299e-58d3-443a-a50b-7a344888ca08")
+	)
+	(label "RingPower"
+		(at 157.48 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c014a056-b971-4830-819f-6c4a37ef1e22")
 	)
 	(label "INT_CLK"
 		(at 128.27 55.88 0)
@@ -3702,6 +3827,94 @@
 			(project "BusinessCardV1"
 				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/9de3a60e-6635-4d18-85fa-31055f93e53d"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a3623e3-30aa-448b-8875-145aa44e210d")
+		(property "Reference" "R3"
+			(at 130.81 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 130.81 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 126.492 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ERJ-3EKF1004V"
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electronic Components"
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02b16e6c-8bb5-4a68-b3ae-67ad0e539537")
+		)
+		(pin "2"
+			(uuid "c3af4381-06ed-4074-97b5-52f745936077")
+		)
+		(instances
+			(project "BusinessCardV1"
+				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/9de3a60e-6635-4d18-85fa-31055f93e53d"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4915,6 +5128,72 @@
 			(project "BusinessCardV1"
 				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/9de3a60e-6635-4d18-85fa-31055f93e53d"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.27 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9655bf8e-c2f1-4472-b9b8-79daa23f7e85")
+		(property "Reference" "#PWR015"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d02e6eea-2f38-4141-a8c1-3ea198712d56")
+		)
+		(instances
+			(project "BusinessCardV1"
+				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/9de3a60e-6635-4d18-85fa-31055f93e53d"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6323,6 +6602,188 @@
 			(project ""
 				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/9de3a60e-6635-4d18-85fa-31055f93e53d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG2305UX-7:DMG2305UX-7")
+		(at 144.78 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de23591b-db33-4905-b915-251cdace729b")
+		(property "Reference" "Q2"
+			(at 144.78 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMG2305UX-7"
+			(at 144.78 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DMG2305UX-7:SOT91P240X110-3N_DMG2305UX-7"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "DMG2305UX-7DICT-ND"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DMG2305UX-7/Diodes+Inc./view-part/?ref=snap"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23 Diodes Inc."
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DMG2305UX-7/Diodes+Inc./view-part/?ref=eda"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "09/2018"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Diodes Inc."
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DMG2305UX-7"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "MOSFET P-Ch 20V 5A Enhancement SOT23 | Diodes Inc DMG2305UX-7"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc."
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f1f81f-949a-4999-9fdd-6aed6c67ff47")
+		)
+		(pin "2"
+			(uuid "d8408a5b-bb85-42c8-a241-9701c18d3c69")
+		)
+		(pin "3"
+			(uuid "cfe881d2-95a4-45a1-b953-36ec6b990adf")
+		)
+		(instances
+			(project "BusinessCardV1"
+				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/9de3a60e-6635-4d18-85fa-31055f93e53d"
+					(reference "Q2")
 					(unit 1)
 				)
 			)

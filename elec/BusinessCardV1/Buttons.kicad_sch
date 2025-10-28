@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cca7d72d-33a7-4d5e-841a-76e1607d17ac")
+	(paper "A4")
+	(lib_symbols)
+	(text "Ring Power\n\n"
+		(exclude_from_sim no)
+		(at 38.354 23.114 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "673006a0-f169-4108-a218-f804a4bcbfb1")
+	)
+)

@@ -427,6 +427,10 @@
     [
       "bb75b1ab-3247-4d76-a79d-e5920cedd94d",
       "Accelerometer_Circle_LED"
+    ],
+    [
+      "06731789-f6b8-4cf9-a4ef-6065a138a8f1",
+      "Buttons"
     ]
   ],
   "text_variables": {}
