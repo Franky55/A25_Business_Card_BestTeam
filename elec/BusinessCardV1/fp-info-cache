@@ -1,4 +1,4 @@
-26740039543488329
+26748847263933311
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2820,7 +2820,21 @@ speaker CUI
 0
 2
 2
+CL10A475KP8NNNC
+CAPC1608X90N
+
+
+0
+2
+2
 CL10B105KP8NNNC
+CAPC1608X90N
+
+
+0
+2
+2
+CL10C471JB8NNNC
 CAPC1608X90N
 
 
@@ -62474,6 +62488,13 @@ GDT 3R-6
 0
 3
 3
+Header1x2
+Header1x2
+
+
+0
+2
+2
 Header1x4
 Header1x4
 
@@ -70608,6 +70629,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP73831T-2DCI_OT
+SOT95P270X145-5N
+
+
+0
+5
+5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -93677,6 +93705,13 @@ QBLP595
 QBLP595
 Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 diode handsolder
+0
+2
+2
+RC0603FR-0769K8L
+RESC1608X55N
+
+
 0
 2
 2
