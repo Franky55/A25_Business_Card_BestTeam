@@ -15,4 +15,6 @@
   (lib (name "RC0603FR-0769K8L")(type "KiCad")(uri "${KIPRJMOD}/Components/RC0603FR-0769K8L/RC0603FR-0769K8L.kicad_sym")(options "")(descr ""))
   (lib (name "CL10A475KP8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Components/CL10A475KP8NNNC/CL10A475KP8NNNC.kicad_sym")(options "")(descr ""))
   (lib (name "CL10C471JB8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Components/CL10C471JB8NNNC/CL10C471JB8NNNC.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G139DCTR")(type "KiCad")(uri "${KIPRJMOD}/Components/SN74LVC1G139DCTR/SN74LVC1G139DCTR.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LV161ADR")(type "KiCad")(uri "${KIPRJMOD}/Components/SN74LV161ADR/KiCADv6/SN74LV161ADR.kicad_sym")(options "")(descr ""))
 )
