@@ -173,6 +173,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 48.26 123.19)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddee4a38-9975-4d83-b22a-449e651bd504")
+		(property "Sheetname" "Accelerometer_Circle_Setup"
+			(at 48.26 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Accelerometer_Circle_Setup.kicad_sch"
+			(at 48.26 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BusinessCardV1"
+				(path "/28a1e4b0-497b-455a-8c80-759850e7b173"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -431,6 +431,10 @@
     [
       "06731789-f6b8-4cf9-a4ef-6065a138a8f1",
       "Buttons"
+    ],
+    [
+      "ddee4a38-9975-4d83-b22a-449e651bd504",
+      "Accelerometer_Circle_Setup"
     ]
   ],
   "text_variables": {}

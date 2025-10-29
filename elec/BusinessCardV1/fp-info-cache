@@ -1,4 +1,25 @@
-26755894007096528
+26764703442281289
+ADXL327BCPZ
+CP_16_5A_ADI
+
+ADXL327BCPZ 
+0
+17
+17
+ADXL327BCPZ
+CP_16_5A_ADI-L
+
+ADXL327BCPZ 
+0
+17
+17
+ADXL327BCPZ
+CP_16_5A_ADI-M
+
+ADXL327BCPZ 
+0
+17
+17
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2835,6 +2856,13 @@ CAPC1608X90N
 2
 2
 CL10C471JB8NNNC
+CAPC1608X90N
+
+
+0
+2
+2
+CL0306KRX7R6BB104
 CAPC1608X90N
 
 
@@ -62719,6 +62747,13 @@ heatsink
 0
 0
 0
+IQS228B00000000TSR
+SOT95P280X100-6N
+
+
+0
+6
+6
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
