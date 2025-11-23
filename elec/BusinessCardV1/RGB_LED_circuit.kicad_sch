@@ -2942,6 +2942,288 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TLC555CDR:TLC555CDR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 16.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TLC555CDR"
+				(at -12.7 -19.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TLC555CDR:SOIC127P599X175-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "296-1336-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLC555CDR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "2.1-MHz, 250-µA, Low-Power Timer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOIC-8 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TLC555CDR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TLC555CDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TLC555CDR_0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 15.24)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "TRIG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "CONT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "THRES"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "DISCH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3074,7 +3356,17 @@
 		)
 		(uuid "5a7e49d4-e05b-4ffa-9ce1-2e079145d0b4")
 	)
-	(text "Inverter/Timer"
+	(text "TIMER"
+		(exclude_from_sim no)
+		(at 231.394 93.472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "99050af0-c1c2-4e56-9289-4c074aca20b5")
+	)
+	(text "Inverte\n"
 		(exclude_from_sim no)
 		(at 55.372 16.256 0)
 		(effects
@@ -3083,12 +3375,6 @@
 			)
 		)
 		(uuid "e0008ab9-e8c0-4569-8d83-c904e28cd252")
-	)
-	(junction
-		(at 35.56 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03aa1076-10dd-488e-9678-2ae3dcaf45b0")
 	)
 	(junction
 		(at 118.11 67.31)
@@ -3109,10 +3395,10 @@
 		(uuid "360e0f36-d4da-430f-82bb-e77ecd480921")
 	)
 	(junction
-		(at 77.47 41.91)
+		(at 204.47 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7abff03c-bc50-4ff3-bf54-f23a1cf3dc6d")
+		(uuid "3d15b9b8-9008-453a-8a35-996f2be8c536")
 	)
 	(junction
 		(at 118.11 69.85)
@@ -3138,9 +3424,19 @@
 		(color 0 0 0 0)
 		(uuid "a8905aab-e580-4dc2-858f-5fdccdcd6c67")
 	)
+	(junction
+		(at 204.47 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe2de7b6-fa3f-4994-9477-2dcd1e21dd05")
+	)
 	(no_connect
 		(at 180.34 67.31)
 		(uuid "5165b995-dfe9-4970-ab93-3eeab83460b6")
+	)
+	(no_connect
+		(at 223.52 124.46)
+		(uuid "6771d41b-814e-4cbe-8d52-886099531d5e")
 	)
 	(no_connect
 		(at 180.34 59.69)
@@ -3149,26 +3445,6 @@
 	(no_connect
 		(at 180.34 69.85)
 		(uuid "c19b063d-67b1-4db5-8881-e66df6315e87")
-	)
-	(wire
-		(pts
-			(xy 77.47 30.48) (xy 77.47 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f999d1-80bd-4405-a08c-4f10de9e9c97")
-	)
-	(wire
-		(pts
-			(xy 77.47 41.91) (xy 69.85 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05a6053d-c3ad-4011-9566-e1e558495810")
 	)
 	(wire
 		(pts
@@ -3182,16 +3458,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 20.32) (xy 35.56 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2f374a-a1ed-4a51-b917-16287f8001ec")
-	)
-	(wire
-		(pts
 			(xy 119.38 74.93) (xy 118.11 74.93)
 		)
 		(stroke
@@ -3202,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 111.76) (xy 269.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cefe1b-16c0-4800-8f5b-d6463c40b8f8")
+	)
+	(wire
+		(pts
 			(xy 36.83 175.26) (xy 36.83 173.99)
 		)
 		(stroke
@@ -3209,16 +3485,6 @@
 			(type default)
 		)
 		(uuid "12fa5e76-4e53-4a76-b348-3baf4d3b23d3")
-	)
-	(wire
-		(pts
-			(xy 77.47 20.32) (xy 77.47 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13e51760-1e3d-4144-a166-7adf2dc9a1cf")
 	)
 	(wire
 		(pts
@@ -3252,6 +3518,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 125.73) (xy 204.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9aae2a-4f4f-46f8-b575-9e3f1a7e5c64")
+	)
+	(wire
+		(pts
 			(xy 118.11 62.23) (xy 118.11 64.77)
 		)
 		(stroke
@@ -3259,16 +3535,6 @@
 			(type default)
 		)
 		(uuid "2dbc8d8e-405a-4b30-ab80-97b04acdc951")
-	)
-	(wire
-		(pts
-			(xy 81.28 41.91) (xy 77.47 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e6f46a4-2840-4319-ba2d-b29f7bf3581c")
 	)
 	(wire
 		(pts
@@ -3292,16 +3558,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 20.32) (xy 77.47 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4164125b-dd35-4fb1-98fe-58120ae4a4fb")
-	)
-	(wire
-		(pts
 			(xy 119.38 69.85) (xy 118.11 69.85)
 		)
 		(stroke
@@ -3309,16 +3565,6 @@
 			(type default)
 		)
 		(uuid "4a2f2a8d-e971-4ee2-909d-93542536f8a5")
-	)
-	(wire
-		(pts
-			(xy 35.56 41.91) (xy 46.99 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e8adac8-55f4-4d6f-8397-2e159b68fbb7")
 	)
 	(wire
 		(pts
@@ -3402,6 +3648,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 127) (xy 204.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635b4bd4-9db2-46d8-a416-aaa95c80619d")
+	)
+	(wire
+		(pts
 			(xy 36.83 132.08) (xy 50.8 132.08)
 		)
 		(stroke
@@ -3422,6 +3678,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 116.84) (xy 265.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f69b9c2-f6fd-499c-95f5-5d6aefc8cbb2")
+	)
+	(wire
+		(pts
 			(xy 50.8 182.88) (xy 50.8 189.23)
 		)
 		(stroke
@@ -3439,6 +3705,16 @@
 			(type default)
 		)
 		(uuid "72ca00ae-63cd-4430-9afc-d716abb208d3")
+	)
+	(wire
+		(pts
+			(xy 204.47 127) (xy 204.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73800dee-b659-4da1-93dc-c29981ee237b")
 	)
 	(wire
 		(pts
@@ -3502,23 +3778,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 49.53) (xy 69.85 49.53)
+			(xy 204.47 149.86) (xy 204.47 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "847dafda-8ffb-4a5e-803d-2a4ee0134998")
+		(uuid "87920570-7c0e-43d6-9381-107efebaddf7")
 	)
 	(wire
 		(pts
-			(xy 27.94 27.94) (xy 27.94 20.32)
+			(xy 204.47 148.59) (xy 204.47 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86d6fa43-78e7-4594-a97a-c0373874ff16")
+		(uuid "8a453ab5-c47d-41dc-8240-c1ca4784d495")
 	)
 	(wire
 		(pts
@@ -3529,26 +3805,6 @@
 			(type default)
 		)
 		(uuid "8b4beb84-c139-422d-9161-f749df3838fa")
-	)
-	(wire
-		(pts
-			(xy 35.56 40.64) (xy 35.56 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e1b6217-b10d-4b37-a858-f4b2d34ca750")
-	)
-	(wire
-		(pts
-			(xy 27.94 49.53) (xy 46.99 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951e7e9a-8966-423c-b5c2-efb214f22609")
 	)
 	(wire
 		(pts
@@ -3602,6 +3858,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 102.87) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c588536a-ee59-4821-b5cb-0303e9d28f6d")
+	)
+	(wire
+		(pts
 			(xy 35.56 72.39) (xy 46.99 72.39)
 		)
 		(stroke
@@ -3612,6 +3878,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 149.86) (xy 210.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d050e524-f4c0-49b5-84c5-2b4cc5c4f9ea")
+	)
+	(wire
+		(pts
 			(xy 36.83 157.48) (xy 50.8 157.48)
 		)
 		(stroke
@@ -3619,16 +3895,6 @@
 			(type default)
 		)
 		(uuid "d831db49-2a05-4afd-b000-b3a86656d1f5")
-	)
-	(wire
-		(pts
-			(xy 27.94 48.26) (xy 27.94 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ac63ca-73ec-4ec6-9a9c-dc3f15e9c1ca")
 	)
 	(wire
 		(pts
@@ -3699,16 +3965,6 @@
 			(type default)
 		)
 		(uuid "fe839707-6878-4a57-aaab-53f00a1099f1")
-	)
-	(wire
-		(pts
-			(xy 254 143.51) (xy 254 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffaadd31-c892-45f3-9876-56453faf33be")
 	)
 	(label "CLK_Sequence"
 		(at 119.38 59.69 180)
@@ -3840,15 +4096,15 @@
 		)
 		(uuid "541390ff-1c6e-4aeb-8c56-fc0d4e681f61")
 	)
-	(label "CLK_Sequence"
-		(at 81.28 41.91 0)
+	(label "TRIG"
+		(at 223.52 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "56eb5f42-ebe6-4764-9161-8dd14fb1feb0")
+		(uuid "56023a28-a005-4ad4-a204-af183d44f287")
 	)
 	(label "Power3V3"
 		(at 113.03 72.39 180)
@@ -3859,6 +4115,16 @@
 			(justify right bottom)
 		)
 		(uuid "610e9b38-170c-4cf7-819d-eae5b3dde5ad")
+	)
+	(label "TRIG"
+		(at 223.52 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62178bd4-36ec-4429-83c0-e9a37fee190e")
 	)
 	(label "Power3V3"
 		(at 41.91 85.09 180)
@@ -3950,6 +4216,16 @@
 		)
 		(uuid "a14d0306-626e-49b6-941d-346871bd8549")
 	)
+	(label "Power3V3"
+		(at 223.52 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a54209fa-ef15-4ea3-b075-cae1fc1e95ae")
+	)
 	(label "~{Reset}"
 		(at 180.34 74.93 0)
 		(effects
@@ -3959,6 +4235,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7e2e570-13c2-4883-b1c1-e0914d03fd11")
+	)
+	(label "DISCH"
+		(at 265.43 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa549859-4c5c-45f8-a98c-8fd0386d13b4")
 	)
 	(label "~{Green_LED}"
 		(at 71.12 64.77 0)
@@ -3970,6 +4256,16 @@
 		)
 		(uuid "ae98d4f0-5925-486e-b6a0-2dee30668ed1")
 	)
+	(label "CLK_Sequence"
+		(at 259.08 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b194e769-952b-4f5d-a390-79eab6710bfe")
+	)
 	(label "Power3V3"
 		(at 36.83 148.59 0)
 		(effects
@@ -3979,16 +4275,6 @@
 			(justify left bottom)
 		)
 		(uuid "be317313-13be-4a95-9529-d88ee002ac36")
-	)
-	(label "OutFirst"
-		(at 81.28 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0fe6caf-34be-43ce-b040-b87f9c189900")
 	)
 	(label "Charge_Green_Cap"
 		(at 66.04 144.78 0)
@@ -4000,6 +4286,26 @@
 		)
 		(uuid "c475b5d3-0366-4cf3-8d9f-ca3f731f76e5")
 	)
+	(label "DISCH"
+		(at 212.09 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4762640-098f-4e94-9299-1777c6c8790d")
+	)
+	(label "Power3V3"
+		(at 269.24 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4971ba7-6289-4979-94ec-f7da0d91b8e3")
+	)
 	(label "~{Reset}"
 		(at 71.12 80.01 0)
 		(effects
@@ -4009,16 +4315,6 @@
 			(justify left bottom)
 		)
 		(uuid "dbda4412-24c1-49ad-8201-f5fdef1d8779")
-	)
-	(label "OutFirst"
-		(at 35.56 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df309ebb-eb04-40cb-ae0f-dc3c1d00e59d")
 	)
 	(label "Power3V3"
 		(at 36.83 173.99 0)
@@ -4060,6 +4356,26 @@
 		)
 		(uuid "f3cd777b-0a2e-477c-bc87-8e705ae53d9a")
 	)
+	(label "Power3V3"
+		(at 204.47 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7654820-cc01-43c0-8f5b-cf5033178be4")
+	)
+	(label "TRIG"
+		(at 210.82 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc4bd413-bc99-48ed-8a1a-988e18e1fb13")
+	)
 	(label "Red_LED"
 		(at 252.73 69.85 0)
 		(effects
@@ -4069,6 +4385,72 @@
 			(justify left bottom)
 		)
 		(uuid "fdf8116a-e2df-4aeb-8e95-eabb0bddf97d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06b1a784-c3ad-4846-9114-049b13bbd840")
+		(property "Reference" "#PWR041"
+			(at 204.47 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39e312f2-6dbb-4d22-ab5e-96676ef76af2")
+		)
+		(instances
+			(project "BusinessCardV1"
+				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/3d5f4a94-d08e-45fb-bba7-29ec81636d6c"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4138,7 +4520,7 @@
 	)
 	(symbol
 		(lib_id "RC0603FR-0769K8L:RC0603FR-0769K8L")
-		(at 35.56 30.48 90)
+		(at 204.47 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4147,7 +4529,7 @@
 		(fields_autoplaced yes)
 		(uuid "19a225aa-09de-4612-a8fc-b2d88be05aef")
 		(property "Reference" "R6"
-			(at 39.37 29.2099 90)
+			(at 208.28 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,8 +4537,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "69K8"
-			(at 39.37 31.7499 90)
+		(property "Value" "20k"
+			(at 208.28 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4547,7 @@
 			)
 		)
 		(property "Footprint" "RC0603FR-0769K8L:RESC1608X55N"
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4575,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-69.8KHRCT-ND"
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4585,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=snap"
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4595,7 @@
 			)
 		)
 		(property "Description_1" "69.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4605,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4615,7 @@
 			)
 		)
 		(property "Package" "1608 Yageo"
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4625,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=eda"
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4635,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-0769K8L"
-			(at 35.56 30.48 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,45 +4748,34 @@
 		)
 	)
 	(symbol
-		(lib_id "RC0603FR-0769K8L:RC0603FR-0769K8L")
-		(at 254 133.35 90)
+		(lib_id "power:GND")
+		(at 259.08 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31a5ca92-a1fb-46c8-b3b3-d35112802d3e")
-		(property "Reference" "R11"
-			(at 257.81 132.0799 90)
+		(uuid "368a9e61-64f1-4083-b2a4-dba04d60f3db")
+		(property "Reference" "#PWR042"
+			(at 259.08 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Value" "69K8"
-			(at 257.81 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RC0603FR-0769K8L:RESC1608X55N"
-			(at 254 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 254 133.35 0)
+		(property "Value" "GND"
+			(at 259.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,8 +4783,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 133.35 0)
+		(property "Datasheet" ""
+			(at 259.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,86 +4792,22 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey_Part_Number" "311-69.8KHRCT-ND"
-			(at 254 133.35 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=snap"
-			(at 254 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "69.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 254 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Yageo"
-			(at 254 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608 Yageo"
-			(at 254 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=eda"
-			(at 254 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "RC0603FR-0769K8L"
-			(at 254 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1932c0f-9c6d-4e99-b261-39249d8c03a8")
 		)
 		(pin "1"
-			(uuid "205c42b4-73ec-4b15-8910-2fc704fa0aaa")
+			(uuid "30fd1548-0860-49e8-991e-c6037beb74d5")
 		)
 		(instances
 			(project "BusinessCardV1"
 				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/3d5f4a94-d08e-45fb-bba7-29ec81636d6c"
-					(reference "R11")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5213,7 +5520,7 @@
 	)
 	(symbol
 		(lib_id "RC0603FR-0769K8L:RC0603FR-0769K8L")
-		(at 27.94 38.1 90)
+		(at 204.47 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5221,7 +5528,7 @@
 		(dnp no)
 		(uuid "9ca9f127-0265-4f81-8bc7-f29ba3cb873b")
 		(property "Reference" "R7"
-			(at 30.48 36.83 90)
+			(at 207.01 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,8 +5536,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "69K8"
-			(at 29.972 39.37 90)
+		(property "Value" "500k"
+			(at 206.502 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5546,7 @@
 			)
 		)
 		(property "Footprint" "RC0603FR-0769K8L:RESC1608X55N"
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +5556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5565,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5574,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-69.8KHRCT-ND"
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5584,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=snap"
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5594,7 @@
 			)
 		)
 		(property "Description_1" "69.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5604,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5614,7 @@
 			)
 		)
 		(property "Package" "1608 Yageo"
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5624,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=eda"
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5634,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-0769K8L"
-			(at 27.94 38.1 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,317 +5841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CL10C471JB8NNNC:CL10C471JB8NNNC")
-		(at 254 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae929a41-a06a-45e2-86cd-cb96877f0737")
-		(property "Reference" "C8"
-			(at 257.81 148.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470n"
-			(at 257.81 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CL10C471JB8NNNC:CAPC1608X90N"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "L1_min" "0.1"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CL10C471JB8NNNC/Samsung/view-part/?ref=eda"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-2 Samsung"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "E_min" "0.7"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10C471JB8NNNC/Samsung/view-part/?ref=snap"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_min" "1.5"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_nom" "1.6"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_min" "0.1"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "E_max" "0.9"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "1276-1168-1-ND"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_max" "0.5"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_max" "0.9"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L1_nom" "0.3"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "470 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_max" "1.7"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_nom" "0.9"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L1_max" "0.5"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_min" "0.9"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CL10C471JB8NNNC"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "E_nom" "0.8"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samsung"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_nom" "0.3"
-			(at 254 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34957370-659f-4551-91e9-33ec3b3ca631")
-		)
-		(pin "2"
-			(uuid "1ef04c8d-7c06-4681-8ef5-38f7ee5051f1")
-		)
-		(instances
-			(project "BusinessCardV1"
-				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/3d5f4a94-d08e-45fb-bba7-29ec81636d6c"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SN74LV161ADR:SN74LV161ADR")
 		(at 119.38 57.15 0)
 		(unit 1)
@@ -5966,35 +5962,33 @@
 		)
 	)
 	(symbol
-		(lib_id "CL10C471JB8NNNC:CL10C471JB8NNNC")
-		(at 77.47 27.94 90)
+		(lib_id "TLC555CDR:TLC555CDR")
+		(at 241.3 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cda1b5c9-1529-4902-98e5-19ad72cf55f8")
-		(property "Reference" "C7"
-			(at 81.28 25.3999 90)
+		(uuid "b981bd35-0d7c-42b4-b123-18f627e899a0")
+		(property "Reference" "U20"
+			(at 241.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "470n"
-			(at 81.28 27.9399 90)
+		(property "Value" "TLC555CDR"
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "CL10C471JB8NNNC:CAPC1608X90N"
-			(at 77.47 27.94 0)
+		(property "Footprint" "TLC555CDR:SOIC127P599X175-8N"
+			(at 241.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +5998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 27.94 0)
+			(at 241.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6007,166 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 27.94 0)
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-1336-1-ND"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLC555CDR/Texas+Instruments/view-part/?ref=snap"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2.1-MHz, 250-µA, Low-Power Timer"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Texas Instruments"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TLC555CDR/Texas+Instruments/view-part/?ref=eda"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TLC555CDR"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bd1ea51-90af-4c12-aa1f-10180f0eb089")
+		)
+		(pin "4"
+			(uuid "78722d32-f7a8-4a85-a669-bd7eff8d7f39")
+		)
+		(pin "2"
+			(uuid "63ecc910-03e2-4500-9841-32ddbb49ac29")
+		)
+		(pin "5"
+			(uuid "b45b33cb-e483-4fde-8ee4-bfce8587416c")
+		)
+		(pin "6"
+			(uuid "41ecfeb1-311e-4df3-94bb-f5194e97a0b3")
+		)
+		(pin "8"
+			(uuid "fee133bb-b1c4-44fe-a0ac-e2c81396b445")
+		)
+		(pin "7"
+			(uuid "8a816184-5f03-4963-b880-af62f6f92e9c")
+		)
+		(pin "3"
+			(uuid "ca1f4ed6-3dfa-4058-bafa-c62cc952a6e3")
+		)
+		(instances
+			(project ""
+				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/3d5f4a94-d08e-45fb-bba7-29ec81636d6c"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CL10C471JB8NNNC:CL10C471JB8NNNC")
+		(at 204.47 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cda1b5c9-1529-4902-98e5-19ad72cf55f8")
+		(property "Reference" "C7"
+			(at 208.28 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 208.28 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CL10C471JB8NNNC:CAPC1608X90N"
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +6175,7 @@
 			)
 		)
 		(property "L1_min" "0.1"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +6185,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL10C471JB8NNNC/Samsung/view-part/?ref=eda"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +6195,7 @@
 			)
 		)
 		(property "Package" "SMD-2 Samsung"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6205,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6215,7 @@
 			)
 		)
 		(property "E_min" "0.7"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6225,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10C471JB8NNNC/Samsung/view-part/?ref=snap"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6235,7 @@
 			)
 		)
 		(property "D_min" "1.5"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6245,7 @@
 			)
 		)
 		(property "D_nom" "1.6"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6255,7 @@
 			)
 		)
 		(property "L_min" "0.1"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6265,7 @@
 			)
 		)
 		(property "E_max" "0.9"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6275,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "1276-1168-1-ND"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6285,7 @@
 			)
 		)
 		(property "L_max" "0.5"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6295,7 @@
 			)
 		)
 		(property "A_max" "0.9"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6305,7 @@
 			)
 		)
 		(property "L1_nom" "0.3"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6315,7 @@
 			)
 		)
 		(property "Description_1" "470 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6325,7 @@
 			)
 		)
 		(property "MF" "Samsung"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +6335,7 @@
 			)
 		)
 		(property "D_max" "1.7"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6345,7 @@
 			)
 		)
 		(property "A_nom" "0.9"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6355,7 @@
 			)
 		)
 		(property "L1_max" "0.5"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6365,7 @@
 			)
 		)
 		(property "A_min" "0.9"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6375,7 @@
 			)
 		)
 		(property "MP" "CL10C471JB8NNNC"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6385,7 @@
 			)
 		)
 		(property "E_nom" "0.8"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +6395,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6405,7 @@
 			)
 		)
 		(property "L_nom" "0.3"
-			(at 77.47 27.94 0)
+			(at 204.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

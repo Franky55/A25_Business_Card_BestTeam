@@ -20,4 +20,5 @@
   (lib (name "ADXL327BCPZ")(type "KiCad")(uri "${KIPRJMOD}/Components/ADXL327BCPZ/2025-10-29_02-03-27.kicad_sym")(options "")(descr ""))
   (lib (name "IQS228B00000000TSR")(type "KiCad")(uri "${KIPRJMOD}/Components/IQS228B00000000TSR/IQS228B00000000TSR.kicad_sym")(options "")(descr ""))
   (lib (name "CL0306KRX7R6BB104")(type "KiCad")(uri "${KIPRJMOD}/Components/CL10C471JB8NNNC/CL10C471JB8NNNC.kicad_sym")(options "")(descr ""))
+  (lib (name "TLC555CDR")(type "KiCad")(uri "${KIPRJMOD}/Components/TLC555CDR/TLC555CDR/TLC555CDR.kicad_sym")(options "")(descr ""))
 )
