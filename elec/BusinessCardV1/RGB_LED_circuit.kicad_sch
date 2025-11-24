@@ -3358,7 +3358,7 @@
 	)
 	(text "TIMER"
 		(exclude_from_sim no)
-		(at 231.394 93.472 0)
+		(at 244.094 89.662 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -3395,7 +3395,7 @@
 		(uuid "360e0f36-d4da-430f-82bb-e77ecd480921")
 	)
 	(junction
-		(at 204.47 127)
+		(at 217.17 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d15b9b8-9008-453a-8a35-996f2be8c536")
@@ -3425,18 +3425,34 @@
 		(uuid "a8905aab-e580-4dc2-858f-5fdccdcd6c67")
 	)
 	(junction
-		(at 204.47 149.86)
+		(at 217.17 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe2de7b6-fa3f-4994-9477-2dcd1e21dd05")
+	)
+	(no_connect
+		(at 69.85 41.91)
+		(uuid "02a3c9a7-f538-4b93-b12b-86001823b7d0")
+	)
+	(no_connect
+		(at 46.99 41.91)
+		(uuid "45174e92-132f-45b9-b312-ee228b32cca3")
 	)
 	(no_connect
 		(at 180.34 67.31)
 		(uuid "5165b995-dfe9-4970-ab93-3eeab83460b6")
 	)
 	(no_connect
-		(at 223.52 124.46)
+		(at 236.22 120.65)
 		(uuid "6771d41b-814e-4cbe-8d52-886099531d5e")
+	)
+	(no_connect
+		(at 69.85 49.53)
+		(uuid "6bcd0b04-19ce-4c5d-a579-8334be4e7d6d")
+	)
+	(no_connect
+		(at 46.99 49.53)
+		(uuid "94cf239f-1805-431d-bc59-8b958aa5899b")
 	)
 	(no_connect
 		(at 180.34 59.69)
@@ -3468,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 111.76) (xy 269.24 111.76)
+			(xy 271.78 107.95) (xy 281.94 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3518,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 125.73) (xy 204.47 127)
+			(xy 217.17 121.92) (xy 217.17 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3648,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 204.47 127)
+			(xy 224.79 123.19) (xy 217.17 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3678,7 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 116.84) (xy 265.43 116.84)
+			(xy 271.78 113.03) (xy 278.13 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3708,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 204.47 128.27)
+			(xy 217.17 123.19) (xy 217.17 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3778,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 149.86) (xy 204.47 152.4)
+			(xy 217.17 146.05) (xy 217.17 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +3804,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 148.59) (xy 204.47 149.86)
+			(xy 217.17 144.78) (xy 217.17 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3858,7 +3874,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 102.87) (xy 204.47 105.41)
+			(xy 217.17 99.06) (xy 217.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3878,7 +3894,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 149.86) (xy 210.82 149.86)
+			(xy 217.17 146.05) (xy 223.52 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4097,7 +4113,7 @@
 		(uuid "541390ff-1c6e-4aeb-8c56-fc0d4e681f61")
 	)
 	(label "TRIG"
-		(at 223.52 119.38 180)
+		(at 236.22 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4117,7 +4133,7 @@
 		(uuid "610e9b38-170c-4cf7-819d-eae5b3dde5ad")
 	)
 	(label "TRIG"
-		(at 223.52 129.54 180)
+		(at 236.22 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4217,7 +4233,7 @@
 		(uuid "a14d0306-626e-49b6-941d-346871bd8549")
 	)
 	(label "Power3V3"
-		(at 223.52 116.84 180)
+		(at 236.22 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4237,7 +4253,7 @@
 		(uuid "a7e2e570-13c2-4883-b1c1-e0914d03fd11")
 	)
 	(label "DISCH"
-		(at 265.43 116.84 180)
+		(at 278.13 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4257,7 +4273,7 @@
 		(uuid "ae98d4f0-5925-486e-b6a0-2dee30668ed1")
 	)
 	(label "CLK_Sequence"
-		(at 259.08 119.38 0)
+		(at 271.78 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4287,7 +4303,7 @@
 		(uuid "c475b5d3-0366-4cf3-8d9f-ca3f731f76e5")
 	)
 	(label "DISCH"
-		(at 212.09 127 180)
+		(at 224.79 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4297,7 +4313,7 @@
 		(uuid "c4762640-098f-4e94-9299-1777c6c8790d")
 	)
 	(label "Power3V3"
-		(at 269.24 111.76 180)
+		(at 281.94 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4357,7 +4373,7 @@
 		(uuid "f3cd777b-0a2e-477c-bc87-8e705ae53d9a")
 	)
 	(label "Power3V3"
-		(at 204.47 102.87 180)
+		(at 217.17 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4367,7 +4383,7 @@
 		(uuid "f7654820-cc01-43c0-8f5b-cf5033178be4")
 	)
 	(label "TRIG"
-		(at 210.82 149.86 180)
+		(at 223.52 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4388,7 +4404,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 160.02 0)
+		(at 217.17 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4397,7 +4413,7 @@
 		(fields_autoplaced yes)
 		(uuid "06b1a784-c3ad-4846-9114-049b13bbd840")
 		(property "Reference" "#PWR041"
-			(at 204.47 166.37 0)
+			(at 217.17 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 165.1 0)
+			(at 217.17 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 160.02 0)
+			(at 217.17 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 160.02 0)
+			(at 217.17 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 160.02 0)
+			(at 217.17 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4536,7 @@
 	)
 	(symbol
 		(lib_id "RC0603FR-0769K8L:RC0603FR-0769K8L")
-		(at 204.47 115.57 90)
+		(at 217.17 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4529,7 +4545,7 @@
 		(fields_autoplaced yes)
 		(uuid "19a225aa-09de-4612-a8fc-b2d88be05aef")
 		(property "Reference" "R6"
-			(at 208.28 114.2999 90)
+			(at 220.98 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4554,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 208.28 116.8399 90)
+			(at 220.98 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4563,7 @@
 			)
 		)
 		(property "Footprint" "RC0603FR-0769K8L:RESC1608X55N"
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +4591,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-69.8KHRCT-ND"
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4601,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=snap"
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4611,7 @@
 			)
 		)
 		(property "Description_1" "69.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4621,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4631,7 @@
 			)
 		)
 		(property "Package" "1608 Yageo"
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4641,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=eda"
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +4651,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-0769K8L"
-			(at 204.47 115.57 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +4765,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 134.62 0)
+		(at 271.78 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4758,7 +4774,7 @@
 		(fields_autoplaced yes)
 		(uuid "368a9e61-64f1-4083-b2a4-dba04d60f3db")
 		(property "Reference" "#PWR042"
-			(at 259.08 140.97 0)
+			(at 271.78 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 139.7 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 134.62 0)
+			(at 271.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +4800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 134.62 0)
+			(at 271.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +4809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 134.62 0)
+			(at 271.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5536,7 @@
 	)
 	(symbol
 		(lib_id "RC0603FR-0769K8L:RC0603FR-0769K8L")
-		(at 204.47 138.43 90)
+		(at 217.17 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5528,7 +5544,7 @@
 		(dnp no)
 		(uuid "9ca9f127-0265-4f81-8bc7-f29ba3cb873b")
 		(property "Reference" "R7"
-			(at 207.01 137.16 90)
+			(at 219.71 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,8 +5552,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500k"
-			(at 206.502 139.7 90)
+		(property "Value" "700k"
+			(at 219.202 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5562,7 @@
 			)
 		)
 		(property "Footprint" "RC0603FR-0769K8L:RESC1608X55N"
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5581,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +5590,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-69.8KHRCT-ND"
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5600,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=snap"
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5610,7 @@
 			)
 		)
 		(property "Description_1" "69.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5620,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5630,7 @@
 			)
 		)
 		(property "Package" "1608 Yageo"
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5640,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-0769K8L/Yageo/view-part/?ref=eda"
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +5650,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-0769K8L"
-			(at 204.47 138.43 0)
+			(at 217.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +5979,7 @@
 	)
 	(symbol
 		(lib_id "TLC555CDR:TLC555CDR")
-		(at 241.3 124.46 0)
+		(at 254 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5972,7 +5988,7 @@
 		(fields_autoplaced yes)
 		(uuid "b981bd35-0d7c-42b4-b123-18f627e899a0")
 		(property "Reference" "U20"
-			(at 241.3 104.14 0)
+			(at 254 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5996,7 @@
 			)
 		)
 		(property "Value" "TLC555CDR"
-			(at 241.3 106.68 0)
+			(at 254 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +6004,7 @@
 			)
 		)
 		(property "Footprint" "TLC555CDR:SOIC127P599X175-8N"
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6023,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,7 +6032,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "296-1336-1-ND"
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6042,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLC555CDR/Texas+Instruments/view-part/?ref=snap"
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6052,7 @@
 			)
 		)
 		(property "Description_1" "2.1-MHz, 250-µA, Low-Power Timer"
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6062,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6072,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Texas Instruments"
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +6082,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLC555CDR/Texas+Instruments/view-part/?ref=eda"
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6092,7 @@
 			)
 		)
 		(property "MP" "TLC555CDR"
-			(at 241.3 124.46 0)
+			(at 254 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +6136,7 @@
 	)
 	(symbol
 		(lib_id "CL10C471JB8NNNC:CL10C471JB8NNNC")
-		(at 204.47 157.48 90)
+		(at 217.17 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6129,7 +6145,7 @@
 		(fields_autoplaced yes)
 		(uuid "cda1b5c9-1529-4902-98e5-19ad72cf55f8")
 		(property "Reference" "C7"
-			(at 208.28 154.9399 90)
+			(at 220.98 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +6154,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 208.28 157.4799 90)
+			(at 220.98 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6163,7 @@
 			)
 		)
 		(property "Footprint" "CL10C471JB8NNNC:CAPC1608X90N"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6182,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +6191,7 @@
 			)
 		)
 		(property "L1_min" "0.1"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6201,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL10C471JB8NNNC/Samsung/view-part/?ref=eda"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6211,7 @@
 			)
 		)
 		(property "Package" "SMD-2 Samsung"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6221,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +6231,7 @@
 			)
 		)
 		(property "E_min" "0.7"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6241,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10C471JB8NNNC/Samsung/view-part/?ref=snap"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6251,7 @@
 			)
 		)
 		(property "D_min" "1.5"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6261,7 @@
 			)
 		)
 		(property "D_nom" "1.6"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6271,7 @@
 			)
 		)
 		(property "L_min" "0.1"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +6281,7 @@
 			)
 		)
 		(property "E_max" "0.9"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6291,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "1276-1168-1-ND"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +6301,7 @@
 			)
 		)
 		(property "L_max" "0.5"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6311,7 @@
 			)
 		)
 		(property "A_max" "0.9"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6321,7 @@
 			)
 		)
 		(property "L1_nom" "0.3"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +6331,7 @@
 			)
 		)
 		(property "Description_1" "470 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6341,7 @@
 			)
 		)
 		(property "MF" "Samsung"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6351,7 @@
 			)
 		)
 		(property "D_max" "1.7"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +6361,7 @@
 			)
 		)
 		(property "A_nom" "0.9"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +6371,7 @@
 			)
 		)
 		(property "L1_max" "0.5"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6381,7 @@
 			)
 		)
 		(property "A_min" "0.9"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6391,7 @@
 			)
 		)
 		(property "MP" "CL10C471JB8NNNC"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +6401,7 @@
 			)
 		)
 		(property "E_nom" "0.8"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6411,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +6421,7 @@
 			)
 		)
 		(property "L_nom" "0.3"
-			(at 204.47 157.48 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
