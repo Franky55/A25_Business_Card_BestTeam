@@ -1,4 +1,4 @@
-52900381511318
+54664417423841
 ADXL327BCPZ
 CP_16_5A_ADI
 
@@ -59405,6 +59405,13 @@ Crystal
 Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm_HandSoldering
 Murata TPSKA, Resonator/Filter, 7.9x3.8mm package, SMD, hand-soldering, generated with kicad-footprint-generator make_crystal.py, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf
 ceramic
+0
+3
+3
+DMG1012UW-7
+SOT65P222X110-3N
+
+
 0
 3
 3
