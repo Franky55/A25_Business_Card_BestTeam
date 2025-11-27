@@ -7389,7 +7389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -7706,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP14_TOS"
+		(property "Footprint" "TC4069UBFTELN:TSSOP14_TOS"
 			(at 29.1846 29.21 0)
 			(effects
 				(font
@@ -7804,7 +7804,7 @@
 				)
 			)
 		)
-		(property "Value" "250k"
+		(property "Value" "180"
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -9127,7 +9127,7 @@
 				)
 			)
 		)
-		(property "Value" "250k"
+		(property "Value" "180"
 			(at 259.08 115.57 0)
 			(effects
 				(font
@@ -9274,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 153.67 148.59 0)
 			(effects
 				(font
@@ -11418,7 +11418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D16"
+		(property "Footprint" "SN74LV161ADR:SN74LV161ADR"
 			(at 76.2 34.29 0)
 			(effects
 				(font
@@ -12801,7 +12801,7 @@
 				)
 			)
 		)
-		(property "Value" "250k"
+		(property "Value" "180"
 			(at 163.83 144.78 0)
 			(effects
 				(font
@@ -13014,7 +13014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 248.92 119.38 0)
 			(effects
 				(font

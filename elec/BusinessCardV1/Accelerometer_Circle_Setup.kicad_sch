@@ -4336,7 +4336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.88 88.138 90)
 			(effects
 				(font
@@ -4980,7 +4980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.35 149.098 90)
 			(effects
 				(font
@@ -5048,7 +5048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 78.74 88.138 90)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.6 88.138 90)
 			(effects
 				(font
@@ -5251,7 +5251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D14_TEX"
+		(property "Footprint" "TLV8544DR:D14_TEX"
 			(at 127 170.18 0)
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 86.36 88.138 90)
 			(effects
 				(font
@@ -5596,7 +5596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.26 88.138 90)
 			(effects
 				(font
@@ -5797,7 +5797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP14_TOS"
+		(property "Footprint" "TC4069UBFTELN:TSSOP14_TOS"
 			(at 83.7946 135.89 0)
 			(effects
 				(font
@@ -5903,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP_16_5A_ADI"
+		(property "Footprint" "ADXL327BCPZ:CP_16_5A_ADI"
 			(at 60.96 35.56 0)
 			(effects
 				(font
@@ -6018,7 +6018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP14_TOS"
+		(property "Footprint" "TC4069UBFTELN:TSSOP14_TOS"
 			(at 35.5346 135.89 0)
 			(effects
 				(font
@@ -6124,7 +6124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.12 88.138 90)
 			(effects
 				(font
@@ -6192,7 +6192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D14_TEX"
+		(property "Footprint" "TLV8544DR:D14_TEX"
 			(at 27.94 100.33 0)
 			(effects
 				(font
@@ -6498,7 +6498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 149.098 90)
 			(effects
 				(font
@@ -7049,7 +7049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.98 88.138 90)
 			(effects
 				(font
@@ -7183,7 +7183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 63.5 88.138 90)
 			(effects
 				(font
@@ -7251,7 +7251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.22 88.138 90)
 			(effects
 				(font
@@ -7630,7 +7630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D14_TEX"
+		(property "Footprint" "TLV8544DR:D14_TEX"
 			(at 96.52 100.33 0)
 			(effects
 				(font

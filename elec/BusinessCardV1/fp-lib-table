@@ -22,4 +22,5 @@
   (lib (name "CL0306KRX7R6BB104")(type "KiCad")(uri "${KIPRJMOD}/Components/CL10C471JB8NNNC")(options "")(descr ""))
   (lib (name "TLC555CDR")(type "KiCad")(uri "${KIPRJMOD}/Components/TLC555CDR/TLC555CDR")(options "")(descr ""))
   (lib (name "DMG1012UW-7")(type "KiCad")(uri "${KIPRJMOD}/Components/DMG1012UW-7")(options "")(descr ""))
+  (lib (name "HEADER1x4")(type "KiCad")(uri "${KIPRJMOD}/Components/HeaderFootprint/HEADER1x4.pretty")(options "")(descr ""))
 )

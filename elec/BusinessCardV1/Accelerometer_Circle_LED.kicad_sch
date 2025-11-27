@@ -1777,7 +1777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 110.49 105.41 0)
 			(effects
 				(font
@@ -2266,7 +2266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -2583,7 +2583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -2900,7 +2900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 109.22 53.34 0)
 			(effects
 				(font
@@ -3217,7 +3217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 167.64 58.42 0)
 			(effects
 				(font
@@ -3601,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 109.22 60.96 0)
 			(effects
 				(font
@@ -3918,7 +3918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 106.68 141.478 90)
 			(effects
 				(font
@@ -3986,7 +3986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 167.64 100.33 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 167.64 60.96 0)
 			(effects
 				(font
@@ -4725,7 +4725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 167.64 105.41 0)
 			(effects
 				(font
@@ -5042,7 +5042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 109.22 100.33 0)
 			(effects
 				(font
@@ -5426,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 167.64 97.79 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 109.22 55.88 0)
 			(effects
 				(font
@@ -6060,7 +6060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 167.64 53.34 0)
 			(effects
 				(font
@@ -6866,7 +6866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 167.64 102.87 0)
 			(effects
 				(font
@@ -7183,7 +7183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-QBLP595-R-MFG"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 109.22 58.42 0)
 			(effects
 				(font

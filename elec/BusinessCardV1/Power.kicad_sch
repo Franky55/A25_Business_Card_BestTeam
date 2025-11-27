@@ -5171,7 +5171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "6130XX11121_61300211121:61300211121"
+		(property "Footprint" "Header1x2:Header1x2_SMD"
 			(at 242.57 100.33 0)
 			(effects
 				(font
@@ -6886,7 +6886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "61300411121:WURTH_61300411121"
+		(property "Footprint" "HEADER1x4:HEADER1x4_SMD"
 			(at 21.59 48.26 0)
 			(effects
 				(font
