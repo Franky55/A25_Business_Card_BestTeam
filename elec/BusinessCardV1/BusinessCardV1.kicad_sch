@@ -791,6 +791,90 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 260.35 55.88)
+		(uuid "23099573-89ed-465c-ada2-5b332e395030")
+	)
+	(no_connect
+		(at 219.71 58.42)
+		(uuid "23e25093-a34c-40d9-9bd8-7b0e986b4859")
+	)
+	(no_connect
+		(at 242.57 22.86)
+		(uuid "25830f74-0d07-4dcc-80d6-021ef07b5ac3")
+	)
+	(no_connect
+		(at 242.57 78.74)
+		(uuid "38653c37-35a4-4a72-b8c7-18fc3f3cd7e4")
+	)
+	(no_connect
+		(at 219.71 45.72)
+		(uuid "3918d1f8-fa76-4a2d-a2ef-7f8747e2386a")
+	)
+	(no_connect
+		(at 237.49 78.74)
+		(uuid "4adbc6a3-13e5-48d8-ba13-84e58f0148e1")
+	)
+	(no_connect
+		(at 219.71 50.8)
+		(uuid "532e88e5-f268-4d20-bdeb-98366bd2bfde")
+	)
+	(no_connect
+		(at 219.71 40.64)
+		(uuid "5cd1547f-d768-42db-96ed-636aacc148a2")
+	)
+	(no_connect
+		(at 219.71 63.5)
+		(uuid "68519e8b-d219-4411-abf8-1e2e1384e1fe")
+	)
+	(no_connect
+		(at 219.71 33.02)
+		(uuid "7a9f6721-56b2-4662-aa2b-14722739a63d")
+	)
+	(no_connect
+		(at 260.35 58.42)
+		(uuid "8129229f-8832-42a6-95a7-c28a85be0b99")
+	)
+	(no_connect
+		(at 219.71 30.48)
+		(uuid "8a7f631e-4c58-4e36-9326-a33ebb014c7a")
+	)
+	(no_connect
+		(at 260.35 50.8)
+		(uuid "a7b04eca-50e2-485a-885d-824fc25a653c")
+	)
+	(no_connect
+		(at 237.49 22.86)
+		(uuid "ab349036-10a4-4a81-9335-c47a7e02f384")
+	)
+	(no_connect
+		(at 219.71 35.56)
+		(uuid "ad8d3f7a-6386-4c9c-86d4-9245d4fd04b5")
+	)
+	(no_connect
+		(at 219.71 43.18)
+		(uuid "b62a5eae-eff6-4ec7-b7fb-045f02617a97")
+	)
+	(no_connect
+		(at 219.71 27.94)
+		(uuid "b868caaa-c518-4e93-bf3a-5d34f8f930a3")
+	)
+	(no_connect
+		(at 219.71 55.88)
+		(uuid "c56a387a-13be-4e99-8ce3-598fe6473610")
+	)
+	(no_connect
+		(at 260.35 27.94)
+		(uuid "c60c7cfb-3e62-456f-84a0-e2bd8dcf53ed")
+	)
+	(no_connect
+		(at 260.35 63.5)
+		(uuid "e7d73f37-3599-4a83-a8fd-fafcbd2dbe49")
+	)
+	(no_connect
+		(at 219.71 38.1)
+		(uuid "f3d26b2d-1046-4073-8eeb-5a39a0b3d263")
+	)
 	(symbol
 		(lib_id "Interface_HDMI:TPD12S520DBT")
 		(at 240.03 50.8 0)
