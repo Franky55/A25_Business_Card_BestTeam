@@ -4137,16 +4137,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 45.72) (xy 260.35 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "698da8b6-0386-42e8-ac18-638244cb349a")
-	)
-	(wire
-		(pts
 			(xy 172.72 66.04) (xy 173.99 66.04)
 		)
 		(stroke
@@ -4535,16 +4525,6 @@
 		)
 		(uuid "3f521fd1-c70c-4fa1-91fc-4b168a48212f")
 	)
-	(label "Power3V3"
-		(at 260.35 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4196887e-2532-45f7-980e-b4eeb3e88529")
-	)
 	(label "~{Q}"
 		(at 134.62 58.42 0)
 		(effects
@@ -4699,6 +4679,18 @@
 		)
 		(uuid "ef6e971c-24d9-4153-86d5-fc23d74a2de8")
 	)
+	(label "V_Bat"
+		(at 247.65 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f640390c-3e73-42cd-a913-8dca7c14e321")
+	)
 	(label "SDX"
 		(at 48.26 52.07 0)
 		(effects
@@ -4708,6 +4700,28 @@
 			(justify left bottom)
 		)
 		(uuid "fc721bcc-fb48-405e-a894-cd7ef7026043")
+	)
+	(global_label "Power3V3"
+		(shape input)
+		(at 260.35 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10683575-af79-43df-a09b-5b104005d7f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 272.4671 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6722,72 +6736,6 @@
 			(project "BusinessCardV1"
 				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/9de3a60e-6635-4d18-85fa-31055f93e53d"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 247.65 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5953ce2a-bcf8-4393-8400-056ea9ccd458")
-		(property "Reference" "#PWR055"
-			(at 247.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 247.65 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b793e6da-a045-45eb-8f11-d8f3545e1992")
-		)
-		(instances
-			(project "BusinessCardV1"
-				(path "/28a1e4b0-497b-455a-8c80-759850e7b173/9de3a60e-6635-4d18-85fa-31055f93e53d"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)

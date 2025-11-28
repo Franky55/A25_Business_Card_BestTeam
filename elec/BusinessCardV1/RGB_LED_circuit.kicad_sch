@@ -6411,6 +6411,28 @@
 		)
 		(uuid "fdf8116a-e2df-4aeb-8e95-eabb0bddf97d")
 	)
+	(global_label "Power3V3"
+		(shape input)
+		(at 279.4 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fa03558-3dde-4693-95ff-031251f4345f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.5171 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 138.43 115.57 0)
