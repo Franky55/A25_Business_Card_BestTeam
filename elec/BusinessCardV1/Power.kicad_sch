@@ -4485,7 +4485,8 @@
 		)
 		(uuid "fa13bc17-7dfe-46d3-81e2-90dd893fe023")
 	)
-	(label "SDX"
+	(global_label "SDX"
+		(shape bidirectional)
 		(at 31.75 50.8 0)
 		(effects
 			(font
@@ -4494,212 +4495,15 @@
 			(justify left bottom)
 		)
 		(uuid "08184510-9e04-4690-99e0-a8c37507a863")
-	)
-	(label "INT_CLK"
-		(at 83.82 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "2e530bf0-0b15-4b08-9207-1185f56d09bd")
-	)
-	(label "~{CSB}"
-		(at 48.26 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "385e03b1-86c4-46a4-b951-a5cf819ae618")
-	)
-	(label "SDO"
-		(at 48.26 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f521fd1-c70c-4fa1-91fc-4b168a48212f")
-	)
-	(label "~{Q}"
-		(at 134.62 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4785d039-d220-41a1-923a-7ab1d61e09ac")
-	)
-	(label "RingBTN"
-		(at 142.24 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a1bafe6-c7c8-4709-ac0d-190ba9d9f661")
-	)
-	(label "V_Bat"
-		(at 80.01 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a75cbd5-27e0-4257-9f11-4f32aa763175")
-	)
-	(label "SolarPower"
-		(at 247.65 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70dc78e9-d214-446d-9ec6-438b227936ed")
-	)
-	(label "V_Bat"
-		(at 34.29 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "82df037a-0ca0-4c16-85f6-81fa0171a605")
-	)
-	(label "Q"
-		(at 175.26 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93c30c41-a946-4414-844b-c9d7fcdfcd11")
-	)
-	(label "Q"
-		(at 245.11 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a96decc4-c8fb-4be1-a9b1-18ca6305c049")
-	)
-	(label "SCX"
-		(at 48.26 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba76cfa7-0b4f-42c9-8510-4467922561cf")
-	)
-	(label "~{Q}"
-		(at 175.26 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be8c299e-58d3-443a-a50b-7a344888ca08")
-	)
-	(label "RingPower"
-		(at 157.48 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c014a056-b971-4830-819f-6c4a37ef1e22")
-	)
-	(label "SolarPower"
-		(at 41.91 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c444418d-7833-4471-b407-c71c44653de5")
-	)
-	(label "INT_CLK"
-		(at 128.27 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4caa10c-b8bc-4cf6-bd42-d0be591aca62")
-	)
-	(label "SDO"
-		(at 31.75 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db942f1f-2883-41f8-b0c4-77136156ef5e")
-	)
-	(label "~{CSB}"
-		(at 31.75 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e930486c-3dd6-4c32-8839-490df170a099")
-	)
-	(label "SCX"
-		(at 31.75 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef6e971c-24d9-4153-86d5-fc23d74a2de8")
-	)
-	(label "V_Bat"
-		(at 247.65 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f640390c-3e73-42cd-a913-8dca7c14e321")
-	)
-	(label "SDX"
-		(at 48.26 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc721bcc-fb48-405e-a894-cd7ef7026043")
 	)
 	(global_label "Power3V3"
 		(shape input)
@@ -4719,6 +4523,412 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT_CLK"
+		(shape bidirectional)
+		(at 83.82 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e530bf0-0b15-4b08-9207-1185f56d09bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CSB}"
+		(shape bidirectional)
+		(at 48.26 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "385e03b1-86c4-46a4-b951-a5cf819ae618")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape bidirectional)
+		(at 48.26 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f521fd1-c70c-4fa1-91fc-4b168a48212f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{Q}"
+		(shape bidirectional)
+		(at 134.62 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4785d039-d220-41a1-923a-7ab1d61e09ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RingBTN"
+		(shape bidirectional)
+		(at 142.24 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a1bafe6-c7c8-4709-ac0d-190ba9d9f661")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_Bat"
+		(shape bidirectional)
+		(at 80.01 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a75cbd5-27e0-4257-9f11-4f32aa763175")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SolarPower"
+		(shape bidirectional)
+		(at 247.65 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70dc78e9-d214-446d-9ec6-438b227936ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_Bat"
+		(shape bidirectional)
+		(at 34.29 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "82df037a-0ca0-4c16-85f6-81fa0171a605")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Q"
+		(shape bidirectional)
+		(at 175.26 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93c30c41-a946-4414-844b-c9d7fcdfcd11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Q"
+		(shape bidirectional)
+		(at 245.11 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a96decc4-c8fb-4be1-a9b1-18ca6305c049")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCX"
+		(shape bidirectional)
+		(at 48.26 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba76cfa7-0b4f-42c9-8510-4467922561cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{Q}"
+		(shape bidirectional)
+		(at 175.26 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be8c299e-58d3-443a-a50b-7a344888ca08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RingPower"
+		(shape bidirectional)
+		(at 157.48 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c014a056-b971-4830-819f-6c4a37ef1e22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SolarPower"
+		(shape bidirectional)
+		(at 41.91 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c444418d-7833-4471-b407-c71c44653de5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT_CLK"
+		(shape bidirectional)
+		(at 128.27 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4caa10c-b8bc-4cf6-bd42-d0be591aca62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape bidirectional)
+		(at 31.75 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db942f1f-2883-41f8-b0c4-77136156ef5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CSB}"
+		(shape bidirectional)
+		(at 31.75 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e930486c-3dd6-4c32-8839-490df170a099")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCX"
+		(shape bidirectional)
+		(at 31.75 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef6e971c-24d9-4153-86d5-fc23d74a2de8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_Bat"
+		(shape bidirectional)
+		(at 247.65 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f640390c-3e73-42cd-a913-8dca7c14e321")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDX"
+		(shape bidirectional)
+		(at 48.26 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc721bcc-fb48-405e-a894-cd7ef7026043")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
